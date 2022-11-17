@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(238, 238, 238);
+  padding: 5% 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container button {
+  padding: 6px 24px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+#countryInfo p {
+  text-align: center;
+  font-size: 36px;
+}
+
+#countryInfo img {
+  width: 300px;
+  height: 200px;
+  box-shadow: 0px 0px 27px 1px black;
+}
